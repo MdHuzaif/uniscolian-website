@@ -1,0 +1,43 @@
+# Python (should not exist, but ignore if any remain)
+__pycache__/
+*.pyc
+*.py
+venv/
+.venv/
+.env
+.env.example
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temp
+*.tmp
+.cache/
+
+# Testing
+tests/
+.pytest_cache/
+pytest.ini
+conftest.py
+coverage.xml
+htmlcov/
+
+# Node (if any)
+node_modules/
+package-lock.json
+
+# Build artifacts
+dist/
+build/
